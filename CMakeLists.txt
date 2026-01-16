@@ -1,7 +1,7 @@
+cmake_minimum_required(VERSION 3.10)
 project(Samples C CXX)
-
-cmake_minimum_required(VERSION 3.3.2)
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-add_subdirectory(samples)
+# Ultralight samples disabled - conflicts with main project's GLFW target
+# add_subdirectory(samples)

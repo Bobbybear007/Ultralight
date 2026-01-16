@@ -49,6 +49,7 @@ else()
       CONFIGURE_COMMAND ""
       BUILD_COMMAND ""
       INSTALL_COMMAND ""
+      DOWNLOAD_EXTRACT_TIMESTAMP ON
     )
 
     ExternalProject_Add(WebCoreBin
@@ -58,6 +59,7 @@ else()
       CONFIGURE_COMMAND ""
       BUILD_COMMAND ""
       INSTALL_COMMAND ""
+      DOWNLOAD_EXTRACT_TIMESTAMP ON
     )
 
     ExternalProject_Add(UltralightBin
@@ -67,6 +69,7 @@ else()
       CONFIGURE_COMMAND ""
       BUILD_COMMAND ""
       INSTALL_COMMAND ""
+      DOWNLOAD_EXTRACT_TIMESTAMP ON
     )
 
     if (PLATFORM MATCHES "win-uwp")
@@ -79,6 +82,7 @@ else()
         CONFIGURE_COMMAND ""
         BUILD_COMMAND ""
         INSTALL_COMMAND ""
+        DOWNLOAD_EXTRACT_TIMESTAMP ON
       )
     endif ()
 endif()
